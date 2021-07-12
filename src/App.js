@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Navbar from "./Navbar";
+import Declarative from "./Declarative";
+import Components from "./Components";
+import SingleWay from "./SingleWay";
+import JSX from "./JSX";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div>
+      <div className="App">
+        <Navbar />
+        <h1 class="cardTitle">Say hello to ReactJS</h1>
+        <p class="cardP">
+          You will learn how to use the most popular frontend library, and
+          become a super Ninja developer.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button id="butt">Awesome!</button>
+
+      </div>
+      <div className="FourIcons">
+        <Declarative />
+        <Components />
+        <SingleWay />
+        <JSX />
+      </div>
     </div>
   );
 }

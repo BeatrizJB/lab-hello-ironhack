@@ -1,5 +1,55 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #1F2535;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 600px;
+}
+
+.cardTitle {
+  width:200px;
+}
+
+.cardP {
+  width: 245px;
+}
+
+
+.Nav {
+  Display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+
+.FourIcons {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+#icons {
+  width: 100px;
+}
+
+.Declare {
+  width: 200px;
+}
+
+.Declare p {
+  color: grey;
+}
+
+#butt {
+  background-color: white;
+  color: #1F2535;
+  border-radius: 5px;
+  border: none;
+  height: 60px;
+  width: 150px;
+  font-weight: 600;
+  font-size: medium;
 }
 
 .App-logo {
